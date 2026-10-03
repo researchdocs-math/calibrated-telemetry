@@ -1,0 +1,9 @@
+.DS_Store
+._*
+__MACOSX/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.venv/
+data/raw/

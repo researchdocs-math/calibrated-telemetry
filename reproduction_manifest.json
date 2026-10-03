@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "files": {
+    "data/streams.npz": "aff8d31949060867e4f6da44ce3f985193b328bb04febec34368326ba05d0d55",
+    "data/streams.json": "d4066610458d572b0f1d7533a685d042af11e74f81be3e21d615b6e8b353a264",
+    "results/test.csv.gz": "633a9d9742274c94bd7b01e97e44d0c1d2ddcc9c6305cc18e85835678db88abd",
+    "results/validation.csv.gz": "d83655b79fdd82b9e68b3ed01408e423e6bd836410ff914509e107f307a94fda",
+    "results/extra.csv.gz": "76f916ae9f4d984fa0980d6224a4ef23cd882f550cff8b0e1569afdda44bdf24",
+    "results/synthetic.csv": "89e5766520b1524d9f858117dac371b2daec0fa760192564d7af5cf309eacd55",
+    "results/synthetic_traces.npz": "ede0e822adc138c17f6f6d401cb4913ee8fc26c079153e2a76e121f3e507902f",
+    "results/summary.csv": "e3549b030650d8e80f0f3851df6a2886cb04685ee569777273e8c7ad33684389",
+    "results/paired.csv": "c279b1e7e51e90370124fd8eeeef6f1a2b8f8a5ee425b2369997a4f19d5ac3f8",
+    "results/tuning.json": "4b7c50f3fbc624d2c768148676204baa9b35971f82c5ba50aed74384d7572d4d",
+    "results/tuning_scores.csv": "252e9efa31adc3ea73d0a120a39beb692e26e357b82911b9f016a0d7a55d0269",
+    "results/validation_checks.json": "2835b58025614c8414e71ee84775616dd1162b14b72a726dc64fa8d75fe5922f"
+  }
+}

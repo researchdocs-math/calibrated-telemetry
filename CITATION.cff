@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "Please cite this software when using these experiments."
+type: software
+title: "Cumulative Calibration for Lossy IoT Telemetry"
+version: 1.0.0
+date-released: 2026-10-03
+authors:
+  - family-names: Yavas
+    given-names: Cemil Emre
+    orcid: "https://orcid.org/0009-0006-9552-1731"
+    affiliation: "School of Computing, Georgia Southern University"
+    email: "cemil@fairesresearch.org"
+license: MIT
+keywords:
+  - Internet of Things
+  - cumulative error telemetry
+  - online calibration
+  - event-triggered communication
+  - packet loss
+abstract: >
+  Reproducible sensor-stream experiments for cumulative error telemetry,
+  including chronological validation, acknowledged lossy-link simulation,
+  calibration and communication comparisons, controlled shifts, and
+  deterministic accounting checks.

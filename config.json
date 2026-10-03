@@ -1,0 +1,116 @@
+{
+  "title": "Cumulative Calibration for Lossy IoT Telemetry",
+  "alpha": 0.1,
+  "header_bytes": 20,
+  "reading_bytes": 8,
+  "counter_bytes": 4,
+  "ack_bytes": 8,
+  "normalized_score_bound": 1,
+  "split_fractions": [
+    0.5,
+    0.2,
+    0.3
+  ],
+  "gain_factors": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1
+  ],
+  "main": {
+    "H": [
+      8,
+      32
+    ],
+    "h_factors": [
+      0.5,
+      1,
+      2,
+      4
+    ],
+    "channels": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "seeds": 30
+  },
+  "validation": {
+    "h_factors": [
+      1,
+      4
+    ],
+    "channels": [
+      0,
+      1,
+      2
+    ],
+    "seeds": 3,
+    "gap_eligibility": 0.02
+  },
+  "sensitivity": {
+    "H": [
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "h_factor": 2,
+    "channel": 2,
+    "seeds": 10
+  },
+  "predictor_check": {
+    "H": 32,
+    "h_factor": 2,
+    "channel": 2,
+    "seeds": 10,
+    "damping": 0.9
+  },
+  "synthetic": {
+    "regime_length": 10000,
+    "scale_offset": [
+      [
+        0.2,
+        0
+      ],
+      [
+        0.5,
+        0.3
+      ],
+      [
+        0.8,
+        0.1
+      ],
+      [
+        0.15,
+        0
+      ],
+      [
+        0.6,
+        0.2
+      ]
+    ],
+    "beta": [
+      2,
+      5
+    ],
+    "H": 32,
+    "h": 2,
+    "eta": 0.002,
+    "q_initial": 0.11,
+    "seeds": 30,
+    "channels": [
+      2,
+      3
+    ]
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 774109
+  },
+  "local_window": 256
+}

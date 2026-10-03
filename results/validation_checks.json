@@ -1,0 +1,7 @@
+{
+  "runs": 552960,
+  "evaluations": 1877774400,
+  "max_identity_error": 2.9198865547600004e-12,
+  "certificate_checks": 245760,
+  "test_readings": 217335
+}
